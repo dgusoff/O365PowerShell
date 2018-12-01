@@ -1,3 +1,12 @@
+# BulkAddToAzureQueue.ps1
+#
+# Derek Gusoff
+# https://github.com/dgusoff
+# 
+# Usage
+# Export sites from SPO to a CSV file
+#  Get-SPOSIte -Limit All | Export-csv $filePath
+# This script add all urls from the file into an Azure Queue
 
 $subscriptionName = "Azure Free Trial"
 $resourceGroupName = "my-resource-group"
