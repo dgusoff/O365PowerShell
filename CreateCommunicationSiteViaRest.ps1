@@ -1,3 +1,7 @@
+# what is this?
+#
+# POC script to create a modern communication site using a REST request
+
 # Configuration
 $TenantUrl = "https://m365x481547.sharepoint.com"
 $Username = "admin@M365x481547.onmicrosoft.com"
